@@ -50,9 +50,12 @@ namespace ContactTracingAppQR
             // 
             // cameraQR
             // 
+            this.cameraQR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.cameraQR.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.cameraQR.Location = new System.Drawing.Point(43, 12);
             this.cameraQR.Name = "cameraQR";
             this.cameraQR.Size = new System.Drawing.Size(372, 258);
+            this.cameraQR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.cameraQR.TabIndex = 1;
             this.cameraQR.TabStop = false;
             // 
