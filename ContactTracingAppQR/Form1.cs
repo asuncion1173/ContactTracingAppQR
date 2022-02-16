@@ -35,7 +35,14 @@ namespace ContactTracingAppQR
 
         private void buttonStart_Click(object sender, EventArgs e)
         {
+            captureDevice = new VideoCaptureDevice(filterInfoCollection[comboBox.SelectedIndex].MonikerString);
+            captureDevice.NewFrame += CaptureDevice_NewFrame;
+            captureDevice.Start();
+        }
 
+        private void CaptureDevice_NewFrame(object sender, NewFrameEventArgs EventArgs)
+        {
+            cameraQR.Image = (Bitmap)EventArgs.Frame.Clone();
         }
     }
 }
