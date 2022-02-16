@@ -29,59 +29,60 @@ namespace ContactTracingAppQR
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnStart = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.buttonStart = new System.Windows.Forms.Button();
+            this.cameraQR = new System.Windows.Forms.PictureBox();
+            this.textBox = new System.Windows.Forms.TextBox();
+            this.comboBox = new System.Windows.Forms.ComboBox();
+            ((System.ComponentModel.ISupportInitialize)(this.cameraQR)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnStart
+            // buttonStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(323, 276);
-            this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(92, 28);
-            this.btnStart.TabIndex = 0;
-            this.btnStart.Text = "Start Scan";
-            this.btnStart.UseVisualStyleBackColor = true;
-            this.btnStart.Click += new System.EventHandler(this.button1_Click);
+            this.buttonStart.Location = new System.Drawing.Point(323, 276);
+            this.buttonStart.Name = "buttonStart";
+            this.buttonStart.Size = new System.Drawing.Size(92, 28);
+            this.buttonStart.TabIndex = 0;
+            this.buttonStart.Text = "Start Scan";
+            this.buttonStart.UseVisualStyleBackColor = true;
+            this.buttonStart.Click += new System.EventHandler(this.buttonStart_Click);
             // 
-            // pictureBox1
+            // cameraQR
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(43, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(372, 258);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.cameraQR.Location = new System.Drawing.Point(43, 12);
+            this.cameraQR.Name = "cameraQR";
+            this.cameraQR.Size = new System.Drawing.Size(372, 258);
+            this.cameraQR.TabIndex = 1;
+            this.cameraQR.TabStop = false;
             // 
-            // textBox1
+            // textBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(43, 310);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(372, 208);
-            this.textBox1.TabIndex = 2;
+            this.textBox.Location = new System.Drawing.Point(43, 310);
+            this.textBox.Multiline = true;
+            this.textBox.Name = "textBox";
+            this.textBox.Size = new System.Drawing.Size(372, 208);
+            this.textBox.TabIndex = 2;
             // 
-            // comboBox1
+            // comboBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(43, 281);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(138, 21);
-            this.comboBox1.TabIndex = 3;
+            this.comboBox.FormattingEnabled = true;
+            this.comboBox.Location = new System.Drawing.Point(43, 281);
+            this.comboBox.Name = "comboBox";
+            this.comboBox.Size = new System.Drawing.Size(138, 21);
+            this.comboBox.TabIndex = 3;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(455, 545);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.btnStart);
+            this.Controls.Add(this.comboBox);
+            this.Controls.Add(this.textBox);
+            this.Controls.Add(this.cameraQR);
+            this.Controls.Add(this.buttonStart);
             this.Name = "Form1";
-            this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Text = "Contact Tracing App (QR)";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.cameraQR)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -89,10 +90,10 @@ namespace ContactTracingAppQR
 
         #endregion
 
-        private System.Windows.Forms.Button btnStart;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button buttonStart;
+        private System.Windows.Forms.PictureBox cameraQR;
+        private System.Windows.Forms.TextBox textBox;
+        private System.Windows.Forms.ComboBox comboBox;
     }
 }
 
