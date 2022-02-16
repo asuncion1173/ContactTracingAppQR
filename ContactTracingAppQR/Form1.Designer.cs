@@ -29,10 +29,12 @@ namespace ContactTracingAppQR
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.buttonStart = new System.Windows.Forms.Button();
             this.cameraQR = new System.Windows.Forms.PictureBox();
             this.textBox = new System.Windows.Forms.TextBox();
             this.comboBox = new System.Windows.Forms.ComboBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.cameraQR)).BeginInit();
             this.SuspendLayout();
             // 
@@ -70,6 +72,11 @@ namespace ContactTracingAppQR
             this.comboBox.Size = new System.Drawing.Size(138, 21);
             this.comboBox.TabIndex = 3;
             // 
+            // timer1
+            // 
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -81,6 +88,7 @@ namespace ContactTracingAppQR
             this.Controls.Add(this.buttonStart);
             this.Name = "Form1";
             this.Text = "Contact Tracing App (QR)";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.cameraQR)).EndInit();
             this.ResumeLayout(false);
@@ -94,6 +102,7 @@ namespace ContactTracingAppQR
         private System.Windows.Forms.PictureBox cameraQR;
         private System.Windows.Forms.TextBox textBox;
         private System.Windows.Forms.ComboBox comboBox;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

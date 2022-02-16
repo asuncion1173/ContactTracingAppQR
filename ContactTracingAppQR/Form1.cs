@@ -44,5 +44,20 @@ namespace ContactTracingAppQR
         {
             cameraQR.Image = (Bitmap)EventArgs.Frame.Clone();
         }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (captureDevice.IsRunning)
+                captureDevice.Stop();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (cameraQR.Image != null)
+            {
+                BarcodeReader barcodeReader = new BarcodeReader();
+                Result qrData = barcodeReader.Decode((Bitmap)cameraQR.Image);
+            }
+        }
     }
 }
