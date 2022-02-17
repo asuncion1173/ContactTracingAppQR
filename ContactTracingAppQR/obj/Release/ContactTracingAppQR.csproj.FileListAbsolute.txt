@@ -1,0 +1,48 @@
+D:\This PC\Downloads\ContactTracingAppQR\ContactTracingAppQR\bin\Release\ContactTracingAppQR.exe.config
+D:\This PC\Downloads\ContactTracingAppQR\ContactTracingAppQR\bin\Release\ContactTracingAppQR.exe
+D:\This PC\Downloads\ContactTracingAppQR\ContactTracingAppQR\bin\Release\ContactTracingAppQR.pdb
+D:\This PC\Downloads\ContactTracingAppQR\ContactTracingAppQR\bin\Release\AForge.dll
+D:\This PC\Downloads\ContactTracingAppQR\ContactTracingAppQR\bin\Release\AForge.Imaging.dll
+D:\This PC\Downloads\ContactTracingAppQR\ContactTracingAppQR\bin\Release\AForge.Math.dll
+D:\This PC\Downloads\ContactTracingAppQR\ContactTracingAppQR\bin\Release\AForge.Video.DirectShow.dll
+D:\This PC\Downloads\ContactTracingAppQR\ContactTracingAppQR\bin\Release\AForge.Video.dll
+D:\This PC\Downloads\ContactTracingAppQR\ContactTracingAppQR\bin\Release\zxing.dll
+D:\This PC\Downloads\ContactTracingAppQR\ContactTracingAppQR\bin\Release\zxing.presentation.dll
+D:\This PC\Downloads\ContactTracingAppQR\ContactTracingAppQR\bin\Release\AForge.xml
+D:\This PC\Downloads\ContactTracingAppQR\ContactTracingAppQR\bin\Release\AForge.Imaging.xml
+D:\This PC\Downloads\ContactTracingAppQR\ContactTracingAppQR\bin\Release\AForge.Math.xml
+D:\This PC\Downloads\ContactTracingAppQR\ContactTracingAppQR\bin\Release\AForge.Video.xml
+D:\This PC\Downloads\ContactTracingAppQR\ContactTracingAppQR\bin\Release\AForge.Video.DirectShow.xml
+D:\This PC\Downloads\ContactTracingAppQR\ContactTracingAppQR\bin\Release\zxing.xml
+D:\This PC\Downloads\ContactTracingAppQR\ContactTracingAppQR\bin\Release\zxing.presentation.xml
+D:\This PC\Downloads\ContactTracingAppQR\ContactTracingAppQR\obj\Release\ContactTracingAppQR.csproj.AssemblyReference.cache
+D:\This PC\Downloads\ContactTracingAppQR\ContactTracingAppQR\obj\Release\ContactTracingAppQR.Form1.resources
+D:\This PC\Downloads\ContactTracingAppQR\ContactTracingAppQR\obj\Release\ContactTracingAppQR.Properties.Resources.resources
+D:\This PC\Downloads\ContactTracingAppQR\ContactTracingAppQR\obj\Release\ContactTracingAppQR.csproj.GenerateResource.cache
+D:\This PC\Downloads\ContactTracingAppQR\ContactTracingAppQR\obj\Release\ContactTracingAppQR.csproj.CoreCompileInputs.cache
+D:\This PC\Downloads\ContactTracingAppQR\ContactTracingAppQR\obj\Release\ContactTracingAppQR.exe
+D:\This PC\Downloads\ContactTracingAppQR\ContactTracingAppQR\obj\Release\ContactTracingAppQR.pdb
+C:\Users\ASUNCION\Downloads\Compressed\ContactTracingAppQR\ContactTracingAppQR\bin\Release\ContactTracingAppQR.exe.config
+C:\Users\ASUNCION\Downloads\Compressed\ContactTracingAppQR\ContactTracingAppQR\bin\Release\ContactTracingAppQR.exe
+C:\Users\ASUNCION\Downloads\Compressed\ContactTracingAppQR\ContactTracingAppQR\bin\Release\ContactTracingAppQR.pdb
+C:\Users\ASUNCION\Downloads\Compressed\ContactTracingAppQR\ContactTracingAppQR\bin\Release\AForge.dll
+C:\Users\ASUNCION\Downloads\Compressed\ContactTracingAppQR\ContactTracingAppQR\bin\Release\AForge.Imaging.dll
+C:\Users\ASUNCION\Downloads\Compressed\ContactTracingAppQR\ContactTracingAppQR\bin\Release\AForge.Math.dll
+C:\Users\ASUNCION\Downloads\Compressed\ContactTracingAppQR\ContactTracingAppQR\bin\Release\AForge.Video.DirectShow.dll
+C:\Users\ASUNCION\Downloads\Compressed\ContactTracingAppQR\ContactTracingAppQR\bin\Release\AForge.Video.dll
+C:\Users\ASUNCION\Downloads\Compressed\ContactTracingAppQR\ContactTracingAppQR\bin\Release\zxing.dll
+C:\Users\ASUNCION\Downloads\Compressed\ContactTracingAppQR\ContactTracingAppQR\bin\Release\zxing.presentation.dll
+C:\Users\ASUNCION\Downloads\Compressed\ContactTracingAppQR\ContactTracingAppQR\bin\Release\AForge.xml
+C:\Users\ASUNCION\Downloads\Compressed\ContactTracingAppQR\ContactTracingAppQR\bin\Release\AForge.Imaging.xml
+C:\Users\ASUNCION\Downloads\Compressed\ContactTracingAppQR\ContactTracingAppQR\bin\Release\AForge.Math.xml
+C:\Users\ASUNCION\Downloads\Compressed\ContactTracingAppQR\ContactTracingAppQR\bin\Release\AForge.Video.xml
+C:\Users\ASUNCION\Downloads\Compressed\ContactTracingAppQR\ContactTracingAppQR\bin\Release\AForge.Video.DirectShow.xml
+C:\Users\ASUNCION\Downloads\Compressed\ContactTracingAppQR\ContactTracingAppQR\bin\Release\zxing.xml
+C:\Users\ASUNCION\Downloads\Compressed\ContactTracingAppQR\ContactTracingAppQR\bin\Release\zxing.presentation.xml
+C:\Users\ASUNCION\Downloads\Compressed\ContactTracingAppQR\ContactTracingAppQR\obj\Release\ContactTracingAppQR.csproj.AssemblyReference.cache
+C:\Users\ASUNCION\Downloads\Compressed\ContactTracingAppQR\ContactTracingAppQR\obj\Release\ContactTracingAppQR.Form1.resources
+C:\Users\ASUNCION\Downloads\Compressed\ContactTracingAppQR\ContactTracingAppQR\obj\Release\ContactTracingAppQR.Properties.Resources.resources
+C:\Users\ASUNCION\Downloads\Compressed\ContactTracingAppQR\ContactTracingAppQR\obj\Release\ContactTracingAppQR.csproj.GenerateResource.cache
+C:\Users\ASUNCION\Downloads\Compressed\ContactTracingAppQR\ContactTracingAppQR\obj\Release\ContactTracingAppQR.csproj.CoreCompileInputs.cache
+C:\Users\ASUNCION\Downloads\Compressed\ContactTracingAppQR\ContactTracingAppQR\obj\Release\ContactTracingAppQR.exe
+C:\Users\ASUNCION\Downloads\Compressed\ContactTracingAppQR\ContactTracingAppQR\obj\Release\ContactTracingAppQR.pdb

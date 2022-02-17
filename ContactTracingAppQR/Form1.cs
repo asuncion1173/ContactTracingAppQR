@@ -7,10 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using AForge.Video;
+using AForge;
 using AForge.Video.DirectShow;
 using ZXing;
-using ZXing.QrCode;
 using ZXing.Aztec;
 using System.IO;
 
@@ -22,7 +21,7 @@ namespace ContactTracingAppQR
         {
             InitializeComponent();
         }
-
+      
         FilterInfoCollection filterInfoCollection;
         VideoCaptureDevice captureDevice;
 
@@ -36,13 +35,13 @@ namespace ContactTracingAppQR
 
         private void buttonStart_Click(object sender, EventArgs e)
         {
-            captureDevice = new VideoCaptureDevice(filterInfoCollection[comboBox.SelectedIndex].MonikerString);
+            captureDevice = new VideoCaptureDevice(filterInfoCollection[0].MonikerString);
             captureDevice.NewFrame += CaptureDevice_NewFrame;
             captureDevice.Start();
             timer1.Start();
         }
 
-        private void CaptureDevice_NewFrame(object sender, NewFrameEventArgs eventArgs)
+        private void CaptureDevice_NewFrame(object sender, AForge.Video.NewFrameEventArgs eventArgs)
         {
             cameraQR.Image = (Bitmap)eventArgs.Frame.Clone();
         }
@@ -55,12 +54,16 @@ namespace ContactTracingAppQR
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            BarcodeReader barcodeReader = new BarcodeReader();
-            Result qrData = barcodeReader.Decode((Bitmap)cameraQR.Image);
+            if (cameraQR.Image != null)
+            {
+                ZXing.BarcodeReader barcodeReader = new ZXing.BarcodeReader();
+                ZXing.Result qrData = barcodeReader.Decode((Bitmap)cameraQR.Image);
                 if (qrData != null)
                 {
                     MessageBox.Show(qrData.ToString());
                 }
+            }
+           
         }
     }
 }
