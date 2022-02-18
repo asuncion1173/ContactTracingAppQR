@@ -54,6 +54,7 @@ namespace ContactTracingAppQR
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+
             if (cameraQR.Image != null)
             {
                 ZXing.BarcodeReader barcodeReader = new ZXing.BarcodeReader();
@@ -61,9 +62,17 @@ namespace ContactTracingAppQR
                 if (qrData != null)
                 {
                     MessageBox.Show(qrData.ToString());
+                    if (captureDevice.IsRunning)
+                        captureDevice.Stop();
+                    timer1.Stop();
+                    StreamWriter output;
+                    output = File.CreateText(@"C:\Users\ASUNCION\Desktop\Safe Stay\" + "Jacob Asuncion" + ".txt");
+                    output.WriteLine(qrData.ToString());
+                    output.Close();
                 }
             }
-           
+            
+
         }
     }
 }
