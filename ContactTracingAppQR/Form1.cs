@@ -31,6 +31,7 @@ namespace ContactTracingAppQR
             foreach (FilterInfo filterInfo in filterInfoCollection)
                 comboBox.Items.Add(filterInfo.Name);
             comboBox.SelectedIndex = 0;
+            timerDateTime.Start();
         }
 
         private void buttonStart_Click(object sender, EventArgs e)
@@ -61,18 +62,25 @@ namespace ContactTracingAppQR
                 ZXing.Result qrData = barcodeReader.Decode((Bitmap)cameraQR.Image);
                 if (qrData != null)
                 {
-                    MessageBox.Show(qrData.ToString());
+                    MessageBox.Show("Your data has been added to our system!");
                     if (captureDevice.IsRunning)
                         captureDevice.Stop();
                     timer1.Stop();
                     StreamWriter output;
                     output = File.CreateText(@"C:\Users\ASUNCION\Desktop\Safe Stay\" + "Jacob Asuncion" + ".txt");
+                    output.WriteLine(DateTime.Now.ToString());
+                    output.WriteLine("_____________________________________________" + "\n");
                     output.WriteLine(qrData.ToString());
                     output.Close();
                 }
             }
             
 
+        }
+
+        private void timerDateTime_Tick(object sender, EventArgs e)
+        {
+            labelTime.Text = DateTime.Now.ToString();
         }
     }
 }
