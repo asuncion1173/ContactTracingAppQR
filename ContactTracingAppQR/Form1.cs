@@ -67,9 +67,9 @@ namespace ContactTracingAppQR
                         captureDevice.Stop();
                     timer1.Stop();
                     StreamWriter output;
-                    output = File.CreateText(@"C:\Users\ASUNCION\Desktop\Safe Stay\" + "Jacob Asuncion" + ".txt");
+                    output = File.CreateText(@"C:\Users\ASUNCION\Desktop\ContactTracingQR\" + "Data from QR" + ".txt");
                     output.WriteLine(DateTime.Now.ToString());
-                    output.WriteLine("_____________________________________________" + "\n");
+                    output.WriteLine("__________________________________________________________" + "\n");
                     output.WriteLine(qrData.ToString());
                     output.Close();
                 }
